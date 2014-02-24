@@ -12,10 +12,10 @@
 		1FB9964018BA52B20056D77C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9963F18BA52B20056D77C /* UIKit.framework */; };
 		1FB9964618BA52B20056D77C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FB9964418BA52B20056D77C /* InfoPlist.strings */; };
 		1FB9964818BA52B20056D77C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9964718BA52B20056D77C /* main.m */; };
-		1FB9964C18BA52B20056D77C /* ATAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9964B18BA52B20056D77C /* ATAppDelegate.m */; };
+		1FB9964C18BA52B20056D77C /* FJVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9964B18BA52B20056D77C /* FJVAppDelegate.m */; };
 		1FB9964F18BA52B20056D77C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB9964D18BA52B20056D77C /* Main_iPhone.storyboard */; };
 		1FB9965218BA52B20056D77C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB9965018BA52B20056D77C /* Main_iPad.storyboard */; };
-		1FB9965518BA52B20056D77C /* ATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9965418BA52B20056D77C /* ATViewController.m */; };
+		1FB9965518BA52B20056D77C /* FJVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9965418BA52B20056D77C /* FJVViewController.m */; };
 		1FB9965718BA52B20056D77C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB9965618BA52B20056D77C /* Images.xcassets */; };
 		1FB9965E18BA52B20056D77C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9965D18BA52B20056D77C /* XCTest.framework */; };
 		1FB9965F18BA52B20056D77C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9963B18BA52B20056D77C /* Foundation.framework */; };
@@ -43,12 +43,12 @@
 		1FB9964518BA52B20056D77C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FB9964718BA52B20056D77C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FB9964918BA52B20056D77C /* Mills-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mills-Prefix.pch"; sourceTree = "<group>"; };
-		1FB9964A18BA52B20056D77C /* ATAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAppDelegate.h; sourceTree = "<group>"; };
-		1FB9964B18BA52B20056D77C /* ATAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAppDelegate.m; sourceTree = "<group>"; };
+		1FB9964A18BA52B20056D77C /* FJVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJVAppDelegate.h; sourceTree = "<group>"; };
+		1FB9964B18BA52B20056D77C /* FJVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJVAppDelegate.m; sourceTree = "<group>"; };
 		1FB9964E18BA52B20056D77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		1FB9965118BA52B20056D77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		1FB9965318BA52B20056D77C /* ATViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATViewController.h; sourceTree = "<group>"; };
-		1FB9965418BA52B20056D77C /* ATViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATViewController.m; sourceTree = "<group>"; };
+		1FB9965318BA52B20056D77C /* FJVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJVViewController.h; sourceTree = "<group>"; };
+		1FB9965418BA52B20056D77C /* FJVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJVViewController.m; sourceTree = "<group>"; };
 		1FB9965618BA52B20056D77C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1FB9965C18BA52B20056D77C /* MillsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MillsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB9965D18BA52B20056D77C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -114,12 +114,12 @@
 		1FB9964118BA52B20056D77C /* Mills */ = {
 			isa = PBXGroup;
 			children = (
-				1FB9964A18BA52B20056D77C /* ATAppDelegate.h */,
-				1FB9964B18BA52B20056D77C /* ATAppDelegate.m */,
+				1FB9964A18BA52B20056D77C /* FJVAppDelegate.h */,
+				1FB9964B18BA52B20056D77C /* FJVAppDelegate.m */,
 				1FB9964D18BA52B20056D77C /* Main_iPhone.storyboard */,
 				1FB9965018BA52B20056D77C /* Main_iPad.storyboard */,
-				1FB9965318BA52B20056D77C /* ATViewController.h */,
-				1FB9965418BA52B20056D77C /* ATViewController.m */,
+				1FB9965318BA52B20056D77C /* FJVViewController.h */,
+				1FB9965418BA52B20056D77C /* FJVViewController.m */,
 				1FB9965618BA52B20056D77C /* Images.xcassets */,
 				1FB9964218BA52B20056D77C /* Supporting Files */,
 			);
@@ -199,7 +199,7 @@
 		1FB9963018BA52B20056D77C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = AT;
+				CLASSPREFIX = FJV;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = AppleTrek;
 				TargetAttributes = {
@@ -255,8 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB9964818BA52B20056D77C /* main.m in Sources */,
-				1FB9965518BA52B20056D77C /* ATViewController.m in Sources */,
-				1FB9964C18BA52B20056D77C /* ATAppDelegate.m in Sources */,
+				1FB9965518BA52B20056D77C /* FJVViewController.m in Sources */,
+				1FB9964C18BA52B20056D77C /* FJVAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +477,7 @@
 				1FB9966F18BA52B20056D77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FB9967018BA52B20056D77C /* Build configuration list for PBXNativeTarget "MillsTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +486,7 @@
 				1FB9967218BA52B20056D77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

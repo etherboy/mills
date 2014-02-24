@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Fritz Vander Heide. All rights reserved.
 //
 
-#import "ATAppDelegate.h"
+#import "FJVAppDelegate.h"
 
-@implementation ATAppDelegate
+@implementation FJVAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

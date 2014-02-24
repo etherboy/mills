@@ -1,5 +1,5 @@
 //
-//  ATAppDelegate.h
+//  ATViewController.h
 //  Mills
 //
 //  Created by Fritz Vander Heide on 2/23/2014.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ATAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface FJVViewController : UIViewController
 
 @end

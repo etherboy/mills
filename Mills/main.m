@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "ATAppDelegate.h"
+#import "FJVAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ATAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([FJVAppDelegate class]));
     }
 }

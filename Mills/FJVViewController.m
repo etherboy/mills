@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Fritz Vander Heide. All rights reserved.
 //
 
-#import "ATViewController.h"
+#import "FJVViewController.h"
 
-@interface ATViewController ()
+@interface FJVViewController ()
 
 @end
 
-@implementation ATViewController
+@implementation FJVViewController
 
 - (void)viewDidLoad
 {
